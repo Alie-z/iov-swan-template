@@ -1,0 +1,42 @@
+<!-- <iovauto-vsl class="main"> -->
+<view class="main">
+    <view class="home-title">
+        <iov-titlebar showback="{{ false }}" title="度权益"> </iov-titlebar>
+    </view>
+    <view class="main-content">
+        <view class="main-content-nav">
+            <iov-tabs
+                direction="vertical"
+                bindtabchange="tabchange"
+                item-class-name="main-content-nav-item"
+                tabs="{{tabs}}"
+                active-name="{{active}}"
+            />
+        </view>
+        <view class="home-main" s-if="!loading && !error">
+            <view class='home-top'>
+                <iov-tabs
+                    scroll
+                    direction="horizontal"
+                    bindtabchange="tabchange"
+                    tabs="{{couponTabs}}"
+                    active-name="all"
+                />
+                <view class='coupon'>
+                    <iov-icon type="star" class-name="icon"/>
+                    <text>我的优惠券</text>
+                </view>
+            </view>
+            <layout-con layout-single-class-name="layout-single">
+                <view slot="left" class="left-con">
+                    <coupons-list ></coupons-list>
+                </view>
+                <view slot="right" class="right-con">
+                    <coupons-list ></coupons-list>
+                </view>
+            </layout-con>
+        </view>
+        <error-page s-if="!loading && error" class="main-content" catchtap="netErrorTap" type="netError"></error-page>
+    </view>
+</view>
+<!-- </iovauto-vsl> -->

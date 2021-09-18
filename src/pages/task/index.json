@@ -1,0 +1,16 @@
+{
+    "navigationBarTitleText": "",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white",
+    "usingComponents": {
+        "iov-button": "iov-ui/lib/button",
+        "iov-loading": "iov-ui/lib/loading",
+        "iov-titlebar": "iov-ui/lib/titlebar",
+        "iov-image": "iov-ui/lib/image",
+        "iov-icon": "iov-ui/lib/icon",
+        "iov-tabs": "iov-ui/lib/tabs",
+        "layout-con": "iov-ui/lib/layout-con",
+        "error-page": "../../components/error/index",
+        "coupons-list": "../../components/couponsList/index"
+    }
+}

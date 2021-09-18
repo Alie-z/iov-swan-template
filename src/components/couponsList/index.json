@@ -1,0 +1,9 @@
+{
+    "component": true,
+    "usingComponents": {
+        "iov-tag": "iov-ui/lib/tag",
+        "iov-button": "iov-ui/lib/button",
+        "iov-image": "iov-ui/lib/image",
+        "iov-loading": "iov-ui/lib/loading"
+    }
+}

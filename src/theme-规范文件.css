@@ -1,0 +1,626 @@
+/* 主题配置 */
+:root {
+    /* 系统颜色 */
+    /* 页面背景色 */
+    --colorBg: unset;
+    /* 表层色1 */
+    --colorSurface1: unset;
+    /* 表层色2 */
+    --colorSurface2: unset;
+    /* 表层色3 */
+    --colorSurface3: unset;
+
+    /* 功能色 */
+    /* 1级功能色 */
+    --colorPrimary: unset;
+    /* 1级功能色2, 主题色非渐变 */
+    --colorPrimary2: unset;
+    /* 2级功能色1 */
+    --colorSecondary1: unset;
+    /* 2级功能色2 */
+    --colorSecondary2: unset;
+    /* 3级功能色 */
+    --colorTertiary1: unset;
+    /* 常用在边框，分割线颜色 */
+    --colorTertiary2: unset;
+
+    /* 状态色 */
+
+    /* 成功色 */
+    --colorSucceed: unset;
+    /* 警戒色 */
+    --colorWarning: unset;
+    /* 强调色 */
+    --colorImportant: unset;
+
+    /* 通用字体颜色 */
+    --colorTextNormal: unset;
+    /* 辅助字体颜色 */
+    --colorTextCaptioon: unset;
+    /* 高亮文字颜色---- true */
+    --icolorTextHighlight: unset;
+    /* 链接文字颜色---- 外卖、酒店、洗车、订座、加油 */
+    --icolorTextLink: unset;
+    /* 成功状态颜色---- 景点、酒店、电影、停车、订座、加油 */
+    --icolorTextSucceed: unset;
+    /* 警告状态颜色----  订座、停车、电影、酒店、外卖、景点、加油*/
+    --icolorTextWarning: unset;
+    /*滚动条滑块颜色*/
+    --colorScrollRailNor: unset;
+    /*滚动条轨道颜色*/
+    --colorScrollGapNor: unset;
+    /*滚动条滑块颜色*/
+    --borderScrollWidth: 0.04rem;
+    /*滚动条轨道颜色*/
+    --borderScrollRadius: 0.04rem;
+
+    /* 用于运营类等一级大标题 */
+    --ifontsizeH1: 0.56rem;
+    /* 运营类二级大标题 */
+    --ifontsizeH2: 0.48rem;
+    /* 用于常规标题如导航、标题栏 */
+    --ifontsizeTitle1: 0.4rem;
+    /* 常规标题2 */
+    --ifontsizeTitle2: 0.36rem;
+    /* 操作类标题 */
+    --ifontsizeOperation: 0.32rem;
+    /* 一级内容、操控类（Tab、弹窗标题、列表标题等 */
+    --ifontsizeC1: 0.32rem;
+    /* 二级内容（二级导航、按钮） */
+    --ifontsizeC2: 0.28rem;
+    /* 辅助类文案,内容（列表）,比如输入出错提示 */
+    --ifontsizeCaption1: 0.24rem;
+    /* 仅用于标签（谨慎使用） */
+    --ifontsizeCaption2: 0.2rem;
+
+    /* 异形屏参数 */
+    /* 异形屏，屏幕上方弧线垂直方向大小 */
+    --screenArcTop: 0px;
+    /* 异形屏，屏幕右方弧线水平方向大小 */
+    --screenArcRight: 595px;
+    /* 异形屏，屏幕下方弧线垂直方向大小 */
+    --screenArcBottom: 0px;
+    /* 异形屏，屏幕左方弧线水平方向大小 */
+    --screenArcLeft: 0px;
+
+    /*textfield 颜色*/
+    /*textfield 普通*/
+    --colorTextfieldBgNor: unset;
+    --colorTextfieldTextNor: unset;
+    /* --colorTextfieldBgNor: ; 光标颜色 */
+    --colorTextfieldBorderNor: unset;
+    --textfieldBorder: 0.02rem solid var(--colorTextfieldBorderNor);
+    --textfieldBorderBottom: 0.02rem solid var(--colorTextfieldBorderNor);
+    --textfieldBorderError: 0.02rem solid var(--colorTextfieldBorderError);
+
+    /*textfield 输入状态*/
+    --colorTextfieldBgInput: unset;
+    --colorTextfieldTextInput: unset;
+    --colorTextfieldCsr: unset;
+    --colorTextfieldInput: unset;
+    /*textfield Pressed状态*/
+    --colorTextfieldBgPre: unset;
+    --colorTextfieldTextPre: unset;
+    --colorTextfieldBorderPre: unset;
+
+    /*textfield Error状态*/
+    --colorTextfieldBgError: unset;
+    --colorTextfieldTextError: unset;
+    --colorTextfieldCsr: unset;
+    --colorTextfieldBorderError: unset;
+
+    /*textfield Disable状态*/
+    --colorTextfieldBgDis: unset;
+    --colorTextfieldTextDis: unset;
+    --colorTextfieldCsr: unset;
+    --colorTextfieldBorderDis: unset;
+
+    /* tag 组件颜色 */
+    /* tag Succed */
+    --colorTagSucceedBg: unset;
+    --colorTagSucceedBorder: unset;
+    --colorTagSucceedText: unset;
+    /* tag Warning */
+    --colorTagWarningBg: unset;
+    --colorTagWarningBorder: unset;
+    --colorTagWarningText: unset;
+    /* tag Hint */
+    --colorTagHintBg: unset;
+    --colorTagHintBorder: unset;
+    --colorTagHintText: unset;
+    /* tag Highlight */
+    --colorTagHighlightBg: unset;
+    --colorTagHighlightBorder: unset;
+    --colorTagHighlightText: unset;
+
+    /* button 按钮颜色*/
+
+    /* Real 普通状态 */
+    --colorRealbtnBgNor: unset;
+    --colorRealbtnBorderNor: unset;
+    --colorRealbtnTextNor: unset;
+    /* Real 点击状态*/
+    --colorRealbtnBgPre: unset;
+    --colorRealbtnBorderPre: unset;
+    --colorRealbtnTextPre: unset;
+    /* Real 禁用状态*/
+    --colorRealbtnBgDis: unset;
+    --colorRealbtnBorderDis: unset;
+    --colorRealbtnTextDis: unset;
+
+    /* Ghost btn 普通状态 */
+    --colorGhostbtnBgNor: unset;
+    --colorGhostbtnBorderNor: unset;
+    --colorGhostbtnTextNor: unset;
+    /* Ghost 点击状态*/
+    --colorGhostbtnBgPre: unset;
+    --colorGhostbtnBorderPre: transparent;
+    --colorGhostbtnTextPre: unset;
+    /* Ghost 禁用状态*/
+    --colorGhostbtnBgDis: unset;
+    --colorGhostbtnBorderDis: unset;
+    --colorGhostbtnTextDis: unset;
+
+    /* Flat btn 普通状态 */
+    --colorTextbtnBgNor: transparent;
+    --colorTextbtnBorderNor: transparent;
+    --colorTextbtnNor: unset;
+    /* Flat 点击状态*/
+    --colorTextbtnBgPre: unset;
+    --colorTextbtnBorderPre: transparent;
+    --colorTextbtnPre: unset;
+    /* Flat 禁用状态*/
+    --colorTextbtnBgDis: transparent;
+    --colorTextbtnBorderDis: transparent;
+    --colorTextbtnDis: unset;
+
+    /* ui 未提供样式*/
+
+    --ibtnSmallLinehight: 0.6rem;
+    --ibtnRealBgc: unset;
+    --ibtnRealBorderRadius: 0.04rem;
+    --ibtnRealBorderWidth: 0.02rem;
+    --ibtnGhostBgi: unset;
+    /* --ibtnGhostBorderRadius: 4px; */
+    --ibtnGhostBorderWidth: 0.02rem;
+    /* --ibtnFlatBorderRadius: 4px; */
+    --ibtnFlatBorderWidth: 0.02rem;
+
+    /* slider变量 */
+    /* normal*/
+    --colorSliderThumbNor: unset;
+    --colorSliderRailNor: unset;
+    --colorSliderGapNor: unset;
+    /* Pressed */
+    --colorSliderThumbPre: unset;
+    --colorSliderRailPre: unset;
+    /* Disable*/
+    --colorSliderThumbDis: unset;
+    --colorSliderRailDis: unset;
+    --colorSliderGapDis: unset;
+
+    --iSliderBlockSize: 0.324rem;
+    --isliderBlockMarginHalfSize: -0.162rem;
+    --isliderBlockHalfSize: 0.162rem;
+    --isliderBlockShadow: unset;
+    --isliderLineHeight: 0.06rem;
+    --isliderTapAreaHeight: 0.72rem;
+    --isliderBlockActiveShadowOpatity: 0.3;
+    --isliderBlockActiveShadowSize: 0.72rem;
+    --isliderBlockMarginSize: -0.2rem;
+
+    /* searchbar 颜色*/
+    /* Normal */
+    --colorSearchbarBgNor: unset;
+    --colorSearchbarBorderNor: unset;
+    --colorSearchbarTextNor: unset;
+    /* Pressed */
+    --colorSearchbarBgPre: unset;
+    --colorSearchbarBorderPre: unset;
+    --colorSearchbarTextPre: unset;
+    /* Inputting */
+    --colorSearchbarBgInput: unset;
+    --colorSearchbarCsr: unset;
+    --colorSearchbarBorderInput: unset;
+    --colorSearchbarTextInput: unset;
+    /* radio */
+    /* 选中状态 */
+    --colorRadioSelThumbBgNor: unset;
+    --colorRadioSelThumbBorderNor: unset;
+    --colorRadioSelBaseBgNor: unset;
+    --colorRadioSelBaseBorderNor: unset;
+    /* 选中Pressed状态 */
+    --colorRadioSelThumbBgPre: unset;
+    --colorRadioSelThumbBorderPre: unset;
+    --colorRadioSelBaseBgPre: unset;
+    --colorRadioUnselBaseBorderPre: unset;
+    /* 未选中状态 */
+    --colorRadioUnselThumbBgNor: unset;
+    --colorRadioUnselThumbBorderNor: unset;
+    --colorRadioUnselBaseBgNor: unset;
+    --colorRadioUnselBaseBorderNor: unset;
+
+    /* 选中禁用状态 */
+    --colorRadioSelThumbBgDis: unset;
+    --colorRadioSelThumbBorderDis: unset;
+    --colorRadioSelBaseBgDis: unset;
+    --colorRadioUnselBaseBorderDis: unset;
+    /* 未选中禁用状态 */
+    --colorRadioUnselThumbBgDis: unset;
+    --colorRadioUnselThumbBorderDis: unset;
+    --colorRadioUnselBaseBgDis: unset;
+    --colorRadioUnselBaseBorderDis: unset;
+
+    /* Checkbox */
+    /* 选中状态 */
+    --colorCheckboxSelThumbNor: unset;
+    --colorCheckboxSelBaseBgNor: unset;
+    --colorCheckboxSelBaseBorderNor: unset;
+    /* 选中Pressed状态 */
+    --colorCheckboxSelThumbPre: unset;
+    --colorCheckboxSelBaseBgPre: unset;
+    --colorCheckboxSelBaseBorderPre: unset;
+    /* 未选中状态 */
+    --colorCheckboxUnselThumbNor: unset;
+    --colorCheckboxUnselBaseBgNor: unset;
+    --colorCheckboxUnselBaseBorderNor: unset;
+    /* 未选中Pressed状态 */
+    --colorCheckboxUnselThumbPre: unset;
+    --colorCheckboxUnselBaseBgPre: unset;
+    --colorCheckboxUnselBaseBorderPre: unset;
+    /* 选中禁用状态 */
+    --colorCheckboxSelThumbDis: unset;
+    --colorCheckboxSelBaseBgDis: unset;
+    --colorCheckboxSelBaseBorderDis: unset;
+    /* 未选中禁用状态 */
+    --colorCheckboxUnselThumbDis: unset;
+    --colorCheckboxUnselBaseBgDis: unset;
+    --colorCheckboxUnselBaseBorderDis: unset;
+    /* loadingbar变量 */
+    --colorProgIndeterminateRail: unset;
+    --colorProgDeterminateRail: unset;
+    --colorProgIndeterminateGap: unset;
+    --colorProgDeterminateGap: unset;
+    /* loading circle */
+    --colorProgCircularRail: unset;
+    --colorProgCircularGap: unset;
+
+    /* 纵向tabs变量 */
+    --colorTabsVerticalSelNor: unset;
+    --colorTabsVerticalSelBaseNor: unset;
+    --colorTabsVerticalSelBaseBgNor: unset;
+    --colorTabsVerticalSelBaseBorderNor: unset;
+    --colorTabsVerticalSelTextNor: unset;
+    --colorTabsVerticalUnselTextNor: unset;
+    /* Vertical Pressed 状态下 */
+    --colorTabsVerticalSelTextPre: unset;
+    --colorTabsVerticalUnselPre: unset;
+    --colorTabsVerticalUnselBaseBgPre: unset;
+    --colorTabsVerticalUnselBaseBorderPre: unset;
+    --colorTabsVerticalUnselBasePre: unset;
+    --colorTabsVerticalUnselTextPre: unset;
+    /* Horizontal Pressed 状态下 */
+    --colorTabsHorizontalSelTextPre: unset;
+    /* Horizontal 未选中Pressed 状态下 */
+    --colorTabsHorizontalUnselBasePre: unset;
+    --colorTabsHorizontalUnselTextPre: unset;
+    --colorTabsHorizontalUnselBaseBgPre: unset;
+    --colorTabsHorizontalUnselBaseBorderPre: unset;
+    /* Horizontal normal */
+    --colorTabsHorizontalSelNor: unset;
+    --colorTabsHorizontalSelBaseBgNor: unset;
+    --colorTabsHorizontalSelBaseBorderNor: unset;
+    /* 横向tabs变量 */
+    --colorTabsHorizontalSelTextNor: unset;
+    --colorTabsHorizontalUnselTextNor: unset;
+    /* tabs禁用状态变量 */
+    --colorTabsVerticalSelDis: unset;
+    --colorTabsVerticalSelBaseBgDis: unset;
+    --colorTabsVerticalSelBaseBorderDis: unset;
+    --colorTabsVerticalSelBaseDis: unset;
+    --colorTabsVerticalSelTextDis: unset;
+    --colorTabsVerticalSelTextDis: unset;
+    --colorTabsVerticalUnselDis: unset;
+    --colorTabsVerticalUnselBaseDis: unset;
+    --colorTabsVerticalUnselBaseBgDis: unset;
+    --colorTabsVerticalUnselBaseBorderDis: unset;
+    --colorTabsVerticalSelTextDis: unset;
+    --colorTabsVerticalUnselTextDis: unset;
+    --colorTabsHorizontalSelTextDis: unset;
+    --colorTabsHorizontalUnselTextDis: unset;
+    --colorTabsHorizontalelBaseBgDis: unset;
+    --colorTabsHorizontalelBaseBorderDis: unset;
+    --colorTabsHorizontalUnselDis: unset;
+    --colorTabsHorizontalUnselBaseBgDis: unset;
+    --colorTabsHorizontalUnselBaseBorderDis: unset;
+    /* ui未提供变量 */
+    --itabsVerticalWidth: 0.02rem;
+    --itabsVerticalHeight: 100%;
+    --itabsVerticalTop: 0;
+
+    /* switch选中状态变量 */
+    --colorSwitchOnBaseBgNor: unset;
+    --colorSwitchOnThumbBgNor: unset;
+    --colorSwitchOnBaseBorderNor: unset;
+    --colorSwitchOnThumbBorderNor: unset;
+    /* switch选中Pressed状态变量 */
+    --colorSwitchOnThumbBgPre: unset;
+    --colorSwitchOnThumbBorderPre: unset;
+    --colorSwitchOnBaseBgPre: unset;
+    --colorSwitchOnBaseBorderPre: unset;
+    /* switch未选中状态变量 */
+    --colorSwitchOffThumbBorderNor: unset;
+    --colorSwitchOffBaseBorderNor: unset;
+    /* switch未选中Pressed状态变量 */
+    --colorSwitchOffThumbBgPre: unset;
+    --colorSwitchOffThumbBorderPre: unset;
+    --colorSwitchOffBaseBgPre: unset;
+    --colorSwitchOffBaseBorderPre: unset;
+    --colorSwitchOffBaseBgNor: unset;
+    --colorSwitchOffThumbBgNor: unset;
+    /* switch禁用状态变量 */
+    --colorSwitchOnThumbBgDis: unset;
+    --colorSwitchOnBaseBgDis: unset;
+    --colorSwitchOffThumbBgDis: unset;
+    --colorSwitchOffBaseBgDis: unset;
+    /* ui未提供变量 */
+    --iswitchTrackShadow: unset;
+    --iswitchOnTrackBorderColor: #fff7ee80;
+    --iswitchOffTrackBorderColor: #9cb3db80;
+
+    /* 弹窗 Normal */
+    --colorDialogBg: unset;
+    --colorDialogBorder: unset;
+    --colorDialogTiltle: unset;
+    --colorDialogText: unset;
+    --colorDiaologBtnBgNor: unset;
+    --colorDiaologBtnTextNor: unset;
+    --colorDialogBtnBorderNor: unset;
+    --positionDialogTiltle: center;
+    --highlightDialogBtn: unset;
+
+    /* 弹窗 Pressed */
+    --colorDiaologBtnBgPre: unset;
+    --colorDialogBtnBorderPre: unset;
+    --colorDiaologBtnTextPre: unset;
+
+    /* 弹窗 Disable */
+    --colorDiaologBtnBgDis: unset;
+    --colorDiaologBtnBorderDis: unset;
+    --colorDiaologBtnTextDis: unset;
+
+    /* 弹窗 对齐方式 */
+    /* 垂直对齐方式 */
+    --diaologAlignItems: center;
+    /* 水平对齐方式 */
+    --diaologJustifyContent: center;
+
+    /* 筛选菜单 Normal */
+    /*筛选菜单圆角*/
+    --colorMenuRadius: 0.08rem;
+    --colorMenuUnselBg: unset;
+    --colorMenuSubUnselBg: unset;
+    --colorMenuTextUnselNor: unset;
+    --colorMenuTextSubUnselNor: unset;
+    --colorMenuSelBg: unset;
+    --colorMenuTextSelNor: unset;
+    --colorMenuSubSelBg: unset;
+    --colorMenuTextSubSelNor: unset;
+    /* 筛选菜单 pressed */
+    --colorMenuTextUnselPre: unset;
+    --colorMenuTextSubUnselPre: unset;
+    --colorMenuTextSelPre: unset;
+    --colorMenuTextSubSelPre: unset;
+    /* 筛选菜单 Disable */
+    --colorMenuTextUnselDis: unset;
+    --colorMenuTextSubUnselDis: unset;
+    --colorMenuTextSelDis: unset;
+    --colorMenuTextSubSelDis: unset;
+
+    /* tag-select 样式 */
+
+    /* 边框大小 */
+
+    --borderOptiontagWidth: 0.02rem;
+    --borderOptiontagRadius: 0.1rem;
+
+    /* 选中状态背景 */
+    --colorOptiontagSelBgNor: unset;
+    /* 选中状态边框 */
+    --colorOptiontagSelBorderNor: unset;
+    /* 选中状态文字 */
+    --colorOptiontagSelTextNor: unset;
+    /* 选中Pressed状态背景 */
+    --colorOptiontagSelBgPre: unset;
+    --colorOptiontagSelBorderPre: unset;
+    --colorOptiontagSelTextPre: unset;
+    /* 禁用状态 */
+    /* 背景 */
+    --colorOptiontagSelBgDis: unset;
+    /* 边框 */
+    --colorOptiontagSelBorderDis: unset;
+    /* 文字 */
+    --colorOptiontagSelTextDis: unset;
+
+    /* 类型1 */
+    /* 没有选中状态背景 */
+    --colorOptiontagUnsel1BgNor: unset;
+    /* 没有选中状态边框 */
+    --colorOptiontagUnsel1BorderNor: unset;
+    /* 没有选中状态文字 */
+    --colorOptiontagUnsel1TextNor: unset;
+    /* 没有选中Pressed状态 */
+    --colorOptiontagUnselBgPre: unset;
+    --colorOptiontagUnselBorderPre: unset;
+    --colorOptiontagUnselTextPre: unset;
+    /* 禁用状态 */
+    /* 背景 */
+    --colorOptiontagUnsel1BgDis: unset;
+    /* 边框 */
+    --colorOptiontagUnsel1BorderDis: unset;
+    /* 文字 */
+    --colorOptiontagUnsel1TextDis: unset;
+
+    /* 类型2 */
+    /* 没有选中状态背景 */
+    --colorOptiontagUnsel2BgNor: unset;
+    /* 没有选中状态边框 */
+    --colorOptiontagUnsel2BorderNor: transparent;
+    /* 没有选中状态文字 */
+    --colorOptiontagUnsel2TextNor: unset;
+    /* 禁用状态 */
+    /* 背景 */
+    --colorOptiontagUnsel2BgDis: unset;
+    /* 边框 */
+    --colorOptiontagUnsel2BorderDis: transparent;
+    /* 文字 */
+    --colorOptiontagUnsel2TextDis: unset;
+
+    /* 日历颜色 */
+    /* 标题对齐方式 */
+    --colorCalendarTitAlign: center;
+    /* 选中日期颜色 */
+    --colorCalendarSelectBg: linear-gradient(180deg, #596580, #4c5670);
+    /* 选中日期边框颜色 */
+    --colorCalendarSelectBor: transparent;
+    /* 选中日期中间态颜色 */
+    --colorCalendarSelectMidBg: unset;
+    /* 日期弹窗的宽度 */
+    --cornerCalendarWidth: 10.1rem;
+    /* 选择日期的圆角 */
+    --cornerCalendarBorRad: 0.12rem;
+    /* 图片 */
+    --imgNoSrcBgColor: linear-gradient(180deg, #535969 0%, #434a5d 100%);
+    --imgNoSrcTextColor: unset;
+    --imgNoSrcBorRail: 0.08rem;
+
+    /* btn 圆角 */
+    --cornerBtn: 0.1rem;
+    /* btn 描边 */
+    --borderRealbtn: 0.01rem;
+    --borderGhostbtn: unset;
+    /* Slider 圆角 */
+    --borderSliderThumb: unset;
+    --borderSliderRail: unset;
+    --borderSliderRail: unset;
+    --cornerSliderThumb: 1rem;
+    --cornerSliderRail: 1rem;
+    --cornerSliderGap: 1rem;
+    /* Progress 圆角 */
+    --borderProgRail: unset;
+    --borderProgGap: unset;
+    --cornerProgRail: 1rem;
+    --cornerProgGap: 1rem;
+    /* Tag 圆角 */
+    --cornerTag: 0.04rem;
+    /* Switch 圆角 */
+    --cornerSwitchThumb: 0.2rem;
+    --cornerSwitchBase: 0.2rem;
+    --borderSwitchThumb: 0;
+    --borderSwitchBase: 0.01rem;
+    /* Radio 圆角 */
+    --borderRadioThumb: unset;
+    --borderRadiolBase: unset;
+    --cornerRadioThumb: 0.1rem;
+    --cornerRadioBase: 0.24rem;
+    /* Checkbox 圆角 */
+    --cornerCheckboxThumb: 0;
+    --cornerCheckboxBase: 0.15rem;
+    /* Textfield 圆角 */
+    --borderTextfieldBg: unset;
+    --borderTextfield: 0.01rem;
+    --cornerTextfield: 0.1rem;
+    --cornerTextfield: 0.1rem;
+    --cornerTextfieldBg: unset;
+    /* SearchBars  */
+    --cornerSearchbar: 1rem;
+    --borderSearchbar: unset;
+    /* Optiontag 圆角 */
+    --cornerOptiontag: unset;
+
+    /* 所有弹窗的圆角 圆角 */
+    --cornerDialog: 0.1134rem;
+    --borderDialog: 0.01rem;
+
+    /* Menu 圆角 */
+    --cornerMenu: unset;
+    --borderMenu: unset;
+
+    /* 导航 圆角 */
+    --borderTabsVerticalSel: unset;
+    --borderTabsVerticalSelBase: unset;
+    --borderTabsHorizontalSel: unset;
+    --borderTabsHorizontalSelBase: unset;
+    --cornerTabsVerticalSel: unset;
+    --cornerTabsVerticalSelBase: unset;
+    --cornerTabsHorizontalSel: unset;
+    --cornerTabsHorizontalSelBase: unset;
+
+    /* 优惠券背景颜色 */
+    --colorCouponBg: unset;
+}
+
+.iov-text-h1 {
+    font-size: var(--ifontsizeH1);
+    font-weight: 800;
+}
+.iov-text-h2 {
+    font-size: var(--ifontsizeH2);
+    font-weight: 800;
+}
+.iov-text-title {
+    font-size: var(--ifontsizeTitle);
+    font-weight: 400;
+}
+.iov-text-operation {
+    font-size: var(--ifontsizeC1);
+    font-weight: 400;
+}
+.iov-text-c1 {
+    font-size: var(--ifontsizeC1);
+    font-weight: 400;
+}
+.iov-text-c2 {
+    font-size: var(--ifontsizeC2);
+    font-weight: 200;
+}
+.iov-text-caption {
+    font-size: var(--ifontsizeCaption);
+    font-weight: 200;
+}
+.modal-content-footer {
+    height: 1.037rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.18rem;
+}
+.modal-content-footer-item {
+    flex: 1;
+    border-top: 0.02rem solid #4a516c;
+    border-right: 0.02rem solid #4a516c;
+    text-align: center;
+    line-height: 1.037rem;
+}
+.modal-content-footer-item:last-child {
+    border-right: none;
+}
+
+::-webkit-scrollbar {
+    width: var(--borderScrollWidth);
+    background: var(--colorScrollGapNor);
+    border-radius: var(--borderScrollRadius);
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+    width: var(--borderScrollWidth);
+    border-radius: var(--borderScrollRadius);
+    background: var(--colorScrollRailNor);
+}
+
+html {
+    font-size: 100px;
+    background: var(--colorBg);
+}
+body {
+    font-size: var(--ifontsizeCaption1);
+}

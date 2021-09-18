@@ -1,0 +1,55 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    color: var(--colorTextNormal);
+    .modaldate {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+    }
+    &-content {
+        width: 100%;
+        display: flex;
+        padding: 0.12rem 0.24rem 0.24rem 0.56rem;
+        &-nav {
+            width: 2.64rem;
+            height: 100%;
+        }
+        .home-main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            .home-top {
+                width: calc(100% - 2.2rem);
+                position: relative;
+
+                .coupon {
+                    height: 0.96rem;
+                    position: absolute;
+                    top: 0;
+                    right: -2.2rem;
+                    display: flex;
+                    align-items: center;
+                    font-size: 0.32rem;
+                    font-weight: 500;
+                    color: var(--icolorTextHighlight);
+                    .icon {
+                        color: var(--icolorTextHighlight);
+                        font-size: 0.36rem;
+                        margin: 0 0.12rem;
+                    }
+                }
+            }
+        }
+    }
+    .iov-vsl-time {
+        position: absolute;
+        left: -100%;
+        top: -100%;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+}

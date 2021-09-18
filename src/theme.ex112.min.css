@@ -1,0 +1,833 @@
+/* ex11白天小程序主题配置 */
+:root {
+    /* 系统颜色 */
+    /* 页面背景色 */
+    --colorBackground: linear-gradient(180deg, rgba(227, 231, 242, 1), rgba(219, 226, 233, 1));
+    /* 表层色1 */
+    --colorSurface1: linear-gradient(180deg, rgba(242, 244, 251, 0.8), rgba(238, 240, 244, 0.8));
+    /* 表层色2 */
+    --colorSurface2: linear-gradient(180deg, rgba(247, 249, 251, 1), rgba(235, 238, 243, 1));
+    /* 表层色3 */
+    --colorSurface3: rgba(247, 248, 255, 1);
+    /* 功能色 */
+    /* 1级功能色 */
+    --colorPrimary1: linear-gradient(180deg, rgba(54, 190, 169, 1), rgba(0, 166, 141, 1));
+    /* 1级功能色2, 主题色非渐变 */
+    --colorPrimary2: rgba(0, 187, 158, 1);
+    /* 1级功能色3 */
+    --colorPrimary3: linear-gradient(180deg, rgba(248, 249, 252, 1), rgba(230, 246, 245, 1));
+    /* 2级功能色1 */
+    --colorSecondary1: linear-gradient(180deg, rgba(133, 151, 176, 1), rgba(119, 133, 161, 1));
+    /* 2级功能色2 */
+    --colorSecondary2: unset;
+    /* 2级功能色3 */
+    --colorSecondary3: unset;
+    /* 3级功能色 */
+    --colorTertiary1: rgba(4, 10, 18, 1);
+    /* 常用在边框,分割线颜色 */
+    --colorTertiary2: rgba(83, 90, 113, 0.6);
+
+    /* 状态色 */
+
+    /* 成功色 */
+    --colorSucceed: rgb(6, 209, 128);
+    /* 警戒色 */
+    --colorWarning: rgba(217, 0, 0, 1);
+    /* 强调色 */
+    --colorImportant: rgba(241, 143, 39, 1);
+
+    /* 通用字体颜色 */
+    --colorTextNormal: rgba(4, 10, 18, 1);
+    /* 辅助字体颜色 */
+    --colorTextCaptioon: rgba(4, 10, 18, 0.6);
+    /* 高亮文字颜色---- */
+    --icolorTextHighlight: rgba(0, 187, 158, 1);
+    /* 链接文字颜色---- */
+    --icolorTextLink: rgba(0, 146, 255, 1);
+    /* 成功状态颜色----  */
+    --icolorTextSucceed: rgba(6, 209, 128, 1);
+    /* 警告状态颜色---- */
+    --icolorTextWarning: rgba(217, 0, 0, 1);
+    /*滚动条滑块颜色*/
+    --colorScrollRailNor: rgba(169, 176, 192, 0.6);
+    /*滚动条轨道颜色*/
+    --colorScrollGapNor: rgba(69, 78, 91, 0.1);
+    /*滚动条滑块颜色*/
+    --borderScrollWidth: 0.04rem;
+    /*滚动条轨道颜色*/
+    --borderScrollRadius: 0.1rem;
+
+    /* 用于运营类等一级大标题 */
+    --ifontsizeH1: 0.56rem;
+    /* 运营类二级大标题 */
+    --ifontsizeH2: 0.48rem;
+    /* 用于常规标题如导航、标题栏 */
+    --ifontsizeTitle1: 0.4rem;
+    /* 常规标题2 */
+    --ifontsizeTitle2: 0.36rem;
+    /* 操作类标题 */
+    --ifontsizeOperation: 0.32rem;
+    /* 一级内容、操控类（Tab、弹窗标题、列表标题等 */
+    --ifontsizeC1: 0.36rem;
+    /* 二级内容（二级导航、按钮） */
+    --ifontsizeC2: 0.32rem;
+    /* 三级级内容 */
+    --ifontsizeC3: 0.28rem;
+    /* 辅助类文案,内容（列表）,比如输入出错提示 */
+    --ifontsizeCaption1: 0.24rem;
+    /* 仅用于标签（谨慎使用） */
+    --ifontsizeCaption2: 0.2rem;
+    /* 通用圆角-小 */
+    --cornerNormalS: 0.1rem;
+    /* 通用圆角-中 */
+    --cornerNormalM: 0.2rem;
+    /* 通用圆角-大 */
+    --cornerNormalL: 0.24rem;
+    /* 通用圆角-Full */
+    --cornerNormalFull: 100%;
+
+    /* 异形屏参数 */
+    /* 异形屏,屏幕上方弧线垂直方向大小 */
+    --screenArcTop: 0px;
+    /* 异形屏,屏幕右方弧线水平方向大小 */
+    --screenArcRight: 0px;
+    /* 异形屏,屏幕下方弧线垂直方向大小 */
+    --screenArcBottom: 0px;
+    /* 异形屏,屏幕左方弧线水平方向大小 */
+    --screenArcLeft: 0px;
+
+    /*textfield 颜色*/
+    /*textfield 普通*/
+    --colorTextfieldBgNor: transparent;
+    --colorTextfieldTextNor: rgb(86, 92, 104);
+    /* --colorTextfieldBgNor: ; 光标颜色 */
+    --colorTextfieldBorderNor: transparent;
+    /* 带下划线的边框 */
+    --colorTextfieldUNor: rgba(83, 90, 113, 0.6);
+    --textfieldBorder: 0.02rem solid var(--colorTextfieldBorderNor);
+    --textfieldBorderBottom: 0.02rem solid var(--colorTextfieldUNor);
+
+    /*textfield 输入状态*/
+    --colorTextfieldBgInput: transparent;
+    --colorTextfieldTextInput: rgb(4, 10, 18, 1);
+    --colorTextfieldCsr: rgb(0, 187, 159);
+    --colorTextfieldInput: rgba(167, 183, 204, 0.5);
+    --colorTextfieldUInput: rgb(30, 241, 198);
+    --colorTextfieldBorInput: transparent;
+    /*textfield Pressed状态*/
+    --colorTextfieldBgPre: unset;
+    --colorTextfieldTextPre: unset;
+    --colorTextfieldBorderPre: unset;
+
+    /*textfield Error状态*/
+    --colorTextfieldTexErr: rgb(255, 255, 255);
+    --colorTextfieldBgError: transparent;
+    --colorTextfieldTextError: rgb(4, 10, 18, 1);
+    --colorTextfieldBorderError: rgb(217, 0, 0);
+
+    /*textfield Disable状态*/
+    --colorTextfieldTexDis: rgba(255, 255, 255, 0.3);
+    --colorTextfieldBgDis: transparent;
+    --colorTextfieldTextDis: rgb(4, 10, 18, 0.3);
+    --colorTextfieldBorderDis: rgba(83, 90, 113, 0.6);
+
+    /* tag 组件颜色 */
+    /* tag Succed */
+    --colorTagSucceedBg: rgba(129, 255, 235, 0.1);
+    --colorTagSucceedBorder: rgba(6, 209, 128, 1);
+    --colorTagSucceedText: rgba(6, 209, 128, 1);
+    /* tag Warning */
+    --colorTagWarningBg: rgba(217, 0, 0, 0.1);
+    --colorTagWarningBorder: rgba(217, 0, 0, 1);
+    --colorTagWarningText: rgba(217, 0, 0, 1);
+    /* tag Hint */
+    --colorTagHintBg: rgba(241, 143, 39, 0.1);
+    --colorTagHintBorder: rgba(241, 143, 39, 1);
+    --colorTagHintText: rgba(241, 143, 39, 1);
+    /* tag Highlight */
+    --colorTagHighlightBg: rgba(0, 187, 158, 0.1);
+    --colorTagHighlightBorder: rgba(0, 187, 158, 1);
+    --colorTagHighlightText: rgba(0, 187, 158, 1);
+
+    /* tag Refund */
+    --colorTagRefundBg: rgba(4, 10, 18, 0.05);
+    --colorTagRefundBorder: rgba(4, 10, 18, 0.5);
+    --colorTagRefundText: rgba(4, 10, 18, 0.5);
+
+    /* button 按钮颜色*/
+
+    /* button 阴影 */
+    --colorBtnShadow: 0 0.04rem 0.1rem 0 rgba(0, 0, 0, 0.1);
+
+    /* Real 普通状态 */
+    --colorRealbtnBgNor: linear-gradient(180deg, rgba(54, 190, 169, 1), rgba(0, 166, 141, 1));
+    --colorRealbtnBorderNor: rgba(180, 251, 235, 0.2);
+    --colorRealbtnTextNor: rgb(255, 255, 255);
+    /* Real 点击状态*/
+    --colorRealbtnBgPre: linear-gradient(180deg, rgba(54, 190, 169, 0.6), rgba(0, 166, 141, 0.6));
+    --colorRealbtnBorderPre: rgba(180, 251, 235, 0.2);
+    --colorRealbtnTextPre: rgba(255, 255, 255, 0.6);
+    /* Real 禁用状态*/
+    --colorRealbtnBgDis: linear-gradient(180deg, rgba(54, 190, 169, 0.3), rgba(0, 166, 141, 0.3));
+    --colorRealbtnBorderDis: rgba(180, 251, 235, 0.1);
+    --colorRealbtnTextDis: rgba(255, 255, 255, 0.3);
+
+    /* Real2 普通状态 */
+    --colorRealbtn2BgNor: linear-gradient(180deg, rgba(133, 151, 176, 1), rgba(119, 133, 161, 1));
+    --colorRealbtn2BorderNor: rgba(180, 251, 235, 0.2);
+    --colorRealbtn2TextNor: rgb(255, 255, 255);
+    /* Real2 点击状态*/
+    --colorRealbtn2BgPre: linear-gradient(180deg, rgba(133, 151, 176, 0.6), rgba(119, 133, 161, 0.6));
+    --colorRealbtn2BorderPre: rgba(180, 251, 235, 0.6);
+    --colorRealbtn2TextPre: rgb(255, 255, 255);
+    /* Real2 禁用状态*/
+    --colorRealbtn2BgDis: linear-gradient(180deg, rgba(133, 151, 176, 0.3), rgba(119, 133, 161, 0.3));
+    --colorRealbtn2BorderDis: rgba(180, 251, 235, 0.05);
+    --colorRealbtn2TextDis: rgba(255, 255, 255, 0.3);
+
+    /* Ghost btn 普通状态 */
+    --colorGhostbtnBgNor: linear-gradient(180deg, rgba(133, 151, 176, 1), rgba(119, 133, 161, 1));
+    --colorGhostbtnBorderNor: rgba(180, 251, 235, 0.2);
+    --colorGhostbtnTextNor: rgb(255, 255, 255);
+    /* Ghost 点击状态*/
+    --colorGhostbtnBgPre: linear-gradient(180deg, rgba(133, 151, 176, 0.6), rgba(119, 133, 161, 0.6));
+    --colorGhostbtnBorderPre: rgba(180, 251, 235, 0.6);
+    --colorGhostbtnTextPre: rgb(255, 255, 255);
+    /* Ghost 禁用状态*/
+    --colorGhostbtnBgDis: linear-gradient(180deg, rgba(133, 151, 176, 0.3), rgba(119, 133, 161, 0.3));
+    --colorGhostbtnBorderDis: rgba(180, 251, 235, 0.05);
+    --colorGhostbtnTextDis: rgba(255, 255, 255, 0.3);
+
+    /* Flat btn 普通状态 */
+    --colorFlatTextbtnBgNor: transparent;
+    --colorFlatTextbtnBorderNor: transparent;
+    --colorFlatTextbtnNor: rgba(0, 187, 158, 1);
+    /* Flat 点击状态*/
+    --colorFlatTextbtnBgPre: transparent;
+    --colorFlatTextbtnBorderPre: transparent;
+    --colorFlatTextbtnPre: rgba(0, 187, 158, 1);
+    /* Flat 禁用状态*/
+    --colorFlatTextbtnBgDis: transparent;
+    --colorFlatTextbtnBorderDis: transparent;
+    --colorFlatTextbtnDis: rgba(0, 187, 158, 0.3);
+
+    /* ui 未提供样式*/
+
+    --ibtnSmallLinehight: 0.6rem;
+    --ibtnRealBgc: unset;
+    --ibtnRealBorderRadius: 0.04rem;
+    --ibtnRealBorderWidth: 0.02rem;
+    --ibtnGhostBgi: unset;
+    /* --ibtnGhostBorderRadius: 4px; */
+    --ibtnGhostBorderWidth: 0.02rem;
+    /* --ibtnFlatBorderRadius: 4px; */
+    --ibtnFlatBorderWidth: 0.02rem;
+
+    /* slider变量 */
+    /* normal*/
+    --colorSliderThumbNor: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(237, 240, 250, 1));
+    --colorSliderThumbBorderNor: unset;
+    --colorSliderRailNor: linear-gradient(90deg, rgba(0, 187, 158, 1), rgba(14, 221, 179, 1));
+    --colorSliderGapNor: rgba(120, 133, 150, 0.3);
+    /* Pressed */
+    --colorSliderThumbPre: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(237, 240, 250, 1));
+    --colorSliderThumbBorderPre: unset;
+    --colorSliderRailPre: linear-gradient(90deg, rgba(0, 187, 158, 1), rgba(14, 221, 179, 1));
+    /* Disable*/
+    --colorSliderThumbDis: linear-gradient(180deg, rgba(255, 255, 255, 0.24), rgba(237, 240, 250, 0.24));
+    --colorSliderRailDis: linear-gradient(90deg, rgba(0, 187, 158, 0.24), rgba(14, 221, 179, 0.24));
+    --colorSliderGapDis: rgba(120, 133, 150, 0.1);
+
+    --iSliderBlockSize: 0.324rem;
+    --isliderBlockMarginHalfSize: -0.162rem;
+    --isliderBlockHalfSize: 0.162rem;
+    --isliderBlockShadow: 0 0.03rem 0.16rem 0 rgba(0, 0, 0, 0.2);
+    --isliderLineHeight: 0.06rem;
+    --isliderTapAreaHeight: 0.72rem;
+    --isliderBlockActiveShadowOpatity: 0.6;
+    --isliderBlockActiveShadowSize: 0.72rem;
+    --isliderBlockMarginSize: -0.2rem;
+
+    /* searchbar 颜色*/
+    /* Normal */
+    --colorSearchbarBgNor: rgba(255, 255, 255, 0.3);
+    --colorSearchbarBorderNor: transparent;
+    --colorSearchbarTextNor: rgb(86, 92, 104);
+    --colorSearchbarIconNor: rgb(255, 255, 255);
+    /* Pressed */
+    --colorSearchbarBgPre: unset;
+    --colorSearchbarBorderPre: unset;
+    --colorSearchbarTextPre: unset;
+    /* Inputting */
+    --colorSearchbarBgInputting: rgba(255, 255, 255, 1);
+    --colorSearchbarCsr: rgb(0, 187, 159, 1);
+    --colorSearchbarBorderInputting: transparent;
+    --colorSearchbarInputting: rgba(4, 10, 18, 1);
+    /* radio */
+    /* 选中状态 */
+    --colorRadioSelThumbBgNor: linear-gradient(180deg, rgba(241, 248, 254, 1), rgba(214, 219, 235, 1));
+    --colorRadioSelThumbBorderNor: unset;
+    --colorRadioSelBaseBgNor: linear-gradient(180deg, rgba(0, 195, 166, 1), rgba(0, 166, 141, 1));
+    --colorRadioSelBaseBorderNor: unset;
+    /* 选中Pressed状态 */
+    --colorRadioSelThumbBgPre: unset;
+    --colorRadioSelThumbBorderPre: unset;
+    --colorRadioSelBaseBgPre: unset;
+    --colorRadioSelBaseBorderPre: unset;
+    /* 未选中状态 */
+    --colorRadioUnselThumbBgNor: unset;
+    --colorRadioUnselThumbBorderNor: unset;
+    --colorRadioUnselBaseBgNor: linear-gradient(180deg, rgba(143, 159, 182, 1), rgba(119, 133, 160, 1));
+    --colorRadioUnselBaseBorderNor: unset;
+
+    /* 选中禁用状态 */
+    --colorRadioSelThumbBgDis: linear-gradient(180deg, rgba(241, 248, 254, 0.5), rgba(214, 219, 235, 0.5));
+    --colorRadioSelThumbBorderDis: unset;
+    --colorRadioSelBaseBgDis: linear-gradient(180deg, rgba(0, 195, 166, 0.5), rgba(0, 166, 141, 0.5));
+    --colorRadioUnselBaseBorderDis: unset;
+    /* 未选中禁用状态 */
+    --colorRadioUnselThumbBgDis: unset;
+    --colorRadioUnselThumbBorderDis: unset;
+    --colorRadioUnselBaseBgDis: linear-gradient(180deg, rgba(143, 159, 182, 0.5), rgba(119, 133, 160, 0.5));
+    --colorRadioUnselBaseBorderDis: unset;
+
+    /* Checkbox */
+    /* 选中状态 */
+    --colorCheckboxSelThumbNor: rgba(255, 255, 255, 1);
+    --colorCheckboxSelBaseBgNor: linear-gradient(180deg, rgba(0, 195, 166, 1), rgba(0, 166, 141, 1));
+    --colorCheckboxSelBaseBorderNor: transparent;
+    --cornerCheckboxBorderWidth: 0;
+    /* 选中Pressed状态 */
+    --colorCheckboxSelThumbPre: unset;
+    --colorCheckboxSelBaseBgPre: unset;
+    --colorCheckboxSelBaseBorderPre: unset;
+    /* 未选中状态 */
+    --colorCheckboxUnselThumbNor: transparent;
+    --colorCheckboxUnselBaseBgNor: linear-gradient(180deg, rgba(143, 159, 182, 1), rgba(119, 133, 160, 1));
+    --colorCheckboxUnselBaseBorderNor: transparent;
+    --cornerCheckboxUnselBorderWidth: 0.01rem;
+    /* 未选中Pressed状态 */
+    --colorCheckboxUnselThumbPre: unset;
+    --colorCheckboxUnselBaseBgPre: unset;
+    --colorCheckboxUnselBaseBorderPre: unset;
+    /* 选中禁用状态 */
+    --colorCheckboxSelThumbDis: rgba(255, 255, 255, 0.5);
+    --colorCheckboxSelBaseBgDis: linear-gradient(180deg, rgba(0, 195, 166, 0.5), rgba(0, 166, 141, 0.5));
+    --colorCheckboxSelBaseBorderDis: unset;
+    /* 未选中禁用状态 */
+    --colorCheckboxUnselThumbDis: unset;
+    --colorCheckboxUnselBaseBgDis: linear-gradient(180deg, rgba(143, 159, 182, 0.5), rgba(119, 133, 160, 0.5));
+    --colorCheckboxUnselBaseBorderDis: transparent;
+    /* loadingbar变量 */
+    --colorProgIndeterminateRail: linear-gradient(90deg, rgba(0, 187, 158, 1), rgba(14, 221, 179, 1));
+    --colorProgDeterminateRail: linear-gradient(90deg, rgba(0, 187, 158, 1), rgba(14, 221, 179, 1));
+    --colorProgIndeterminateGap: rgba(120, 133, 150, 0.3);
+    --colorProgDeterminateGap: rgba(120, 133, 150, 0.3);
+    /* loading circle */
+    --colorProgCircularRail: rgb(0, 0, 0, 0.45);
+    --colorProgCircularGap: rgba(0, 0, 0, 0.2);
+
+    /* 纵向tabs变量 */
+    --colorTabsVerticalSelNor: rgba(0, 187, 159, 1);
+    --colorTabsVerticalSelBaseBgNor: linear-gradient(90deg, rgba(0, 187, 158, 0.2), rgba(0, 187, 158, 0));
+    --colorTabsVerticalSelBaseBorderNor: unset;
+    --colorTabsVerticalSelTextNor: rgb(0, 187, 159, 1);
+    --colorTabsVerticalUnselTextNor: rgba(4, 10, 18, 0.6);
+    /* Vertical Pressed 状态下 */
+    --colorTabsVerticalSelTextPre: transparent;
+    --colorTabsVerticalUnselPre: unset;
+    --colorTabsVerticalUnselBaseBgPre: linear-gradient(90deg, rgba(53, 229, 255, 0.2), rgba(53, 229, 255, 0));
+    --colorTabsVerticalUnselBaseBorderPre: unset;
+    --colorTabsVerticalUnselBasePre: unset;
+    --colorTabsVerticalUnselTextPre: rgba(255, 255, 255, 1);
+    /* Horizontal Pressed 状态下 */
+    --colorTabsHorizontalSelTextPre: rgb(0, 187, 159, 1);
+    /* Horizontal 未选中Pressed 状态下 */
+    --colorTabsHorizontalUnselBasePre: unset;
+    --colorTabsHorizontalUnselTextPre: unset;
+    --colorTabsHorizontalUnselBaseBgPre: unset;
+    --colorTabsHorizontalUnselBaseBorderPre: rgb(30, 180, 209);
+    /* Horizontal normal */
+    --colorTabsHorizontalSelNor: rgba(0, 187, 159, 1);
+    --colorTabsHorizontalSelBaseBgNor: transparent;
+    --colorTabsHorizontalSelBaseBgDis: linear-gradient(90deg, rgba(53, 229, 255, 0.1), rgba(53, 229, 255, 0));
+    --colorTabsHorizontalSelBaseBorderNor: transparent;
+    /* 横向tabs变量 */
+    --colorTabsHorizontalSelTextNor: rgba(0, 187, 159, 1);
+    --colorTabsHorizontalUnselTextNor: rgba(4, 10, 18, 0.6);
+    /* tabs禁用状态变量 */
+    --colorTabsVerticalSelDis: rgba(30, 241, 198, 0.3);
+    --colorTabsVerticalSelBaseBgDis: linear-gradient(90deg, rgba(0, 187, 158, 0.1), rgba(0, 187, 158, 0));
+    --colorTabsVerticalSelBaseBorderDis: unset;
+    --colorTabsVerticalSelBaseDis: unset;
+    --colorTabsVerticalUnselDis: unset;
+    --colorTabsVerticalUnselBaseDis: unset;
+    --colorTabsVerticalUnselBaseBgDis: unset;
+    --colorTabsVerticalUnselBaseBorderDis: unset;
+    --colorTabsVerticalSelTextDis: rgba(0, 187, 159, 0.3);
+    --colorTabsVerticalUnselTextDis: rgba(4, 10, 18, 0.3);
+    --colorTabsHorizontalSelTextDis: rgba(0, 187, 159, 0.3);
+    --colorTabsHorizontalUnselTextDis: rgba(4, 10, 18, 0.3);
+    --colorTabsHorizontalelBaseBgDis: unset;
+    --colorTabsHorizontalelBaseBorderDis: unset;
+    --colorTabsHorizontalUnselDis: unset;
+    --colorTabsHorizontalUnselBaseBgDis: unset;
+    --colorTabsHorizontalUnselBaseBorderDis: unset;
+    /* ui未提供变量 */
+    --itabsVerticalWidth: 0.02rem;
+    --itabsVerticalHeight: 100%;
+    --itabsVerticalTop: 0;
+
+    /* switch选中状态变量 */
+    --colorSwitchOnBaseBgNor: linear-gradient(180deg, rgba(0, 195, 166, 1), rgba(0, 166, 141, 1));
+    --colorSwitchOnThumbBgNor: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(237, 240, 250, 1));
+    --colorSwitchOnBaseBorderNor: unset;
+    --colorSwitchOnThumbBorderNor: unset;
+    /* switch选中Pressed状态变量 */
+    --colorSwitchOnThumbBgPre: unset;
+    --colorSwitchOnThumbBorderPre: unset;
+    --colorSwitchOnBaseBgPre: unset;
+    --colorSwitchOnBaseBorderPre: unset;
+    /* switch未选中状态变量 */
+    --colorSwitchOffThumbBorderNor: unset;
+    --colorSwitchOffBaseBorderNor: unset;
+    /* switch未选中Pressed状态变量 */
+    --colorSwitchOffThumbBgPre: unset;
+    --colorSwitchOffThumbBorderPre: unset;
+    --colorSwitchOffBaseBgPre: unset;
+    --colorSwitchOffBaseBorderPre: unset;
+    --colorSwitchOffBaseBgNor: linear-gradient(180deg, rgba(133, 151, 176, 1), rgba(119, 133, 160, 1));
+    --colorSwitchOffThumbBgNor: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(237, 240, 250, 1));
+    /* switch禁用状态变量 */
+    --colorSwitchOnThumbBgDis: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(237, 240, 250, 0.5));
+    --colorSwitchOnBaseBgDis: linear-gradient(180deg, rgba(0, 195, 166, 0.5), rgba(0, 166, 141, 0.5));
+    --colorSwitchOnBaseBorderDis: unset;
+    --colorSwitchOffThumbBgDis: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(237, 240, 250, 1));
+    --colorSwitchOffBaseBgDis: unset;
+    --colorSwitchOffThumbBorderDis: unset;
+    --colorSwitchOffBaseBorderDis: unset;
+    /* ui未提供变量 */
+    --iswitchTrackShadow: 0 0.02rem 0.12rem 0 rgba(0, 0, 0, 0.1);
+    --iswitchOnTrackBorderColor: #fff7ee80;
+    --iswitchOffTrackBorderColor: #9cb3db80;
+
+    /* 弹窗 Normal */
+    --colorDialogBg: linear-gradient(180deg, rgba(247, 249, 251, 1), rgba(235, 238, 243, 1));
+    --colorDialogMaskBg: rgba(13, 15, 19, 0.9);
+    --colorDialogBorder: transparent;
+    --colorMask: (0, 0, 0, 0.8);
+    --colorDialogTiltle: rgba(4, 10, 18, 1);
+    --colorDialogText: rgba(4, 10, 18, 0.6);
+    --colorDiaologBtnBgNor: linear-gradient(0deg, rgb(35, 180, 209), rgb(0, 91, 102));
+    --colorDiaologBtnTextNor: rgba(255, 255, 255, 1);
+    --colorDialogBtnBorderNor: unset;
+    --positionDialogTiltle: center;
+    --highlightDialogBtn: linear-gradient(0deg, rgb(35, 180, 209), rgb(0, 91, 102));
+    --colorDiaologBtnBorderNor: unset;
+
+    /* 弹窗 Pressed */
+    --colorDiaologBtnBgPre: linear-gradient(0deg, rgb(35, 180, 209), rgb(0, 91, 102));
+    --colorDialogBtnBorderPre: unset;
+    --colorDiaologBtnTextPre: rgba(255, 255, 255, 1);
+
+    /* 弹窗 Disable */
+    --colorDiaologBtnBgDis: linear-gradient(0deg, rgba(35, 180, 209, 0.5), rgba(0, 91, 102, 0.5));
+    --colorDiaologBtnBorderDis: unset;
+    --colorDiaologBtnTextDis: rgba(255, 255, 255, 0.3);
+
+    /* 弹窗 对齐方式 */
+    /* 垂直对齐方式 */
+    --diaologAlignItems: center;
+    /* 水平对齐方式 */
+    --diaologJustifyContent: flex-start;
+
+    /* 浮窗颜色 */
+    --colorMaskBgNor: rgba(0, 0, 0, 0.6);
+    --colorMaskFloatNor: linear-gradient(180deg, rgba(247, 249, 251, 1), rgba(235, 238, 243, 1));
+
+    /* 筛选菜单 Normal */
+    /*筛选菜单圆角*/
+    --colorMenuRadius: 0.16rem;
+    --colorMenuUnselBg: linear-gradient(90deg, rgba(247, 249, 251, 1), rgba(241, 244, 250, 1));
+    --colorMenuSubUnselBg: rgba(224, 229, 241, 1);
+    --colorMenuTextUnselNor: rgba(4, 10, 18, 1);
+    --colorMenuTextSubUnselNor: rgba(4, 10, 18, 0.6);
+    --colorMenuSelBg: linear-gradient(90deg, rgba(247, 249, 251, 1), rgba(235, 238, 243, 1));
+    --colorMenuTextSelNor: rgb(0, 187, 159, 1);
+    --colorMenuSubSelBg: rgba(235, 238, 243, 1);
+    --colorMenuTextSubSelNor: rgb(0, 187, 159, 1);
+    /* 筛选菜单 pressed */
+    --colorMenuTextUnselPre: rgba(4, 10, 18, 1);
+    --colorMenuTextSubUnselPre: rgba(4, 10, 18, 0.6);
+    --colorMenuTextSelPre: rgba(0, 187, 159, 1);
+    --colorMenuTextSubSelPre: rgba(0, 187, 159, 1);
+    /* 筛选菜单 Disable */
+    --colorMenuTextUnselDis: rgba(4, 10, 18, 0.3);
+    --colorMenuTextSubUnselDis: rgba(4, 10, 18, 0.3);
+    --colorMenuTextSelDis: rgba(0, 187, 159, 0.3);
+    --colorMenuTextSubSelDis: rgba(0, 187, 159, 0.3);
+
+    /* tag-select 样式 */
+    /* 边框大小 */
+
+    --borderOptiontagSel: 0.01rem;
+    --cornerOptiontagSel: 0.1rem;
+
+    /* 选中状态背景 */
+    --colorOptiontagSelBgNor: linear-gradient(180deg, rgba(248, 249, 252, 1), rgba(230, 246, 245, 1));
+    /* 选中状态边框 */
+    --colorOptiontagSelBorderNor: transparent;
+    /* 选中状态文字 */
+    --colorOptiontagSelTextNor: rgba(0, 187, 158, 1);
+    /* 阴影 */
+    --colorOPtiontagSelBoxShodaw: unset;
+    /* 选中Pressed状态背景 */
+    --colorOptiontagSelBgPre: unset;
+    --colorOptiontagSelBorderPre: unset;
+    --colorOptiontagSelTextPre: unset;
+    /* 禁用状态 */
+    /* 背景 */
+    --colorOptiontagSelBgDis: linear-gradient(180deg, rgba(248, 249, 252, 0.5), rgba(230, 246, 245, 0.5));
+    /* 边框 */
+    --colorOptiontagSelBorderDis: transparent;
+    /* 文字 */
+    --colorOptiontagSelTextDis: rgba(0, 187, 158, 0.3);
+    /* 类型1 */
+    /* 没有选中状态背景 */
+    --colorOptiontagUnselBgNor: rgba(255, 255, 255, 0.4);
+    /* 没有选中状态边框 */
+    --colorOptiontagUnselBorderNor: transparent;
+    /* 没有选中状态文字 */
+    --colorOptiontagUnselTextNor: rgba(4, 10, 18, 1);
+    /* 没有选中Pressed状态 */
+    --colorOptiontagUnselBgPre: rgba(255, 255, 255, 0.1);
+    --colorOptiontagUnselBorderPre: unset;
+    --colorOptiontagUnselTextPre: unset;
+    /* 禁用状态 */
+    /* 背景 */
+    --colorOptiontagUnsel1BgDis: rgba(255, 255, 255, 0.2);
+    /* 边框 */
+    --colorOptiontagUnsel1BorderDis: transparent;
+    /* 文字 */
+    --colorOptiontagUnsel1TextDis: rgba(4, 10, 18, 0.3);
+
+    /* 类型2 */
+    /* 没有选中状态背景 */
+    --colorOptiontagUnsel2BgNor: rgba(255, 255, 255, 0.4);
+    /* 没有选中状态边框 */
+    --colorOptiontagUnsel2BorderNor: transparent;
+    /* 没有选中状态文字 */
+    --colorOptiontagUnsel2TextNor: rgba(4, 10, 18, 1);
+    /* 禁用状态 */
+    /* 背景 */
+    --colorOptiontagUnsel2BgDis: rgba(255, 255, 255, 0.2);
+    /* 边框 */
+    --colorOptiontagUnsel2BorderDis: transparent;
+    /* 文字 */
+    --colorOptiontagUnsel2TextDis: rgba(4, 10, 18, 0.3);
+
+    /* 日历颜色 */
+    /* 日历选择区间颜色 */
+    --colorCalendarMiddleBg: rgba(0, 187, 158, 0.06);
+    /* 标题对齐方式 */
+    --colorCalendarTitAlign: center;
+    /* 选中日期颜色 */
+    --colorCalendarSelectBg: var(--colorRealbtnBgNor);
+    /* 选中日期文字颜色 */
+    --colorCalendarSelectText: var(--colorRealbtnTextNor);
+    /* 选中日期文字颜色 */
+    --colorCalendarDisabledText: rgba(0, 0, 0, 0.3);
+    /* 选中日期边框颜色 */
+    --colorCalendarSelectBor: transparent;
+    /* 选中日期中间态颜色 */
+    --colorCalendarSelectMidBg: rgba(73, 83, 109, 0.6);
+    /* 日期弹窗的宽度 */
+    --cornerCalendarWidth: 10.1rem;
+    /* 选择日期的圆角 */
+    --cornerCalendarBorRad: 0.12rem;
+    /* 图片 */
+    --imgNoSrcBgColor: linear-gradient(180deg, rgba(166, 180, 205, 1), rgb(135, 148, 167, 1));
+    --imgNoSrcTextColor: rgba(255, 255, 255, 0.3);
+    --imgNoSrcBorRail: 0.04rem;
+
+    /* btn 圆角 */
+    --cornerBtn: 0.1rem;
+    /* btn 描边 */
+    --borderRealbtn: 0.01rem;
+    --borderReal2btn: 0.01rem;
+    --borderGhostbtn: 0;
+    /* Slider 圆角 */
+    --borderSliderThumb: unset;
+    --borderSliderRail: unset;
+    --borderSliderRail: unset;
+    --cornerSliderThumb: 0.04rem;
+    --cornerSliderRail: 0.04rem;
+    --cornerSliderGap: 0.04rem;
+    /* Progress 圆角 */
+    --borderProgRail: unset;
+    --borderProgGap: unset;
+    --cornerProgRail: 0.04rem;
+    --cornerProgGap: 0.04rem;
+    /* Tag 圆角 */
+    --cornerTag: 0.16rem;
+    /* Switch 圆角 */
+    --cornerSwitchThumb: 100%;
+    --cornerSwitchBase: 0.32rem;
+    --borderSwitchThumb: 0;
+    --borderSwitchBase: 0.01rem;
+    /* Radio 圆角 */
+    --borderRadioThumb: unset;
+    --borderRadiolBase: 0.01rem;
+    --cornerRadioThumb: 100%;
+    --cornerRadioBase: 100%;
+    /* Checkbox 圆角 */
+    --cornerCheckboxThumb: 0.08rem;
+    --cornerCheckboxBase: 0.08rem;
+    /* Textfield 圆角 */
+    --borderTextfieldBg: 0.02rem;
+    --borderTextfield: 0.02rem;
+    --cornerTextfield: 0.1rem;
+    --cornerTextfield: 0.1rem;
+    --cornerTextfieldBg: 0.08rem;
+    /* SearchBars  */
+    --cornerSearchbar: 0.1rem;
+    --borderSearchbar: 0.02rem;
+    /* Optiontag 圆角 */
+    --cornerOptiontag: unset;
+
+    /* 所有弹窗的圆角 圆角 */
+    --cornerDialog: 0.24rem;
+    --borderDialog: 0;
+
+    /* Menu 圆角 */
+    --cornerMenu: 0.1rem;
+    --borderMenu: unset;
+
+    /* 导航 圆角 */
+    --borderTabsVerticalSel: unset;
+    --borderTabsVerticalSelBase: 0.02rem;
+    --borderTabsHorizontalSel: unset;
+    --borderTabsHorizontalSelBase: 0.02rem;
+    --cornerTabsVerticalSel: unset;
+    --cornerTabsVerticalSelBase: unset;
+    --cornerTabsHorizontalSel: unset;
+    --cornerTabsHorizontalSelBase: unset;
+
+    /* 地图常用组件 */
+
+    /* 地图上的按钮*/
+    --colorBtnMap: rgba(125, 139, 166, 1);
+    --colorMapSurface: rgba(239, 242, 246, 1);
+    --colorMapDialog: rgba(242, 244, 247, 1);
+    --imgMapNavigation: url('https://iov-www.cdn.bcebos.com/mini-program/aiappopen/ex11-day/navigation.png');
+    --imgMapOrder: url('https://iov-www.cdn.bcebos.com/mini-program/aiappopen/ex11-day/order.png');
+    --imgMapPerson: url('https://iov-www.cdn.bcebos.com/mini-program/aiappopen/ex11-day/person.png');
+    --imgMapPos: url('https://iov-www.cdn.bcebos.com/mini-program/aiappopen/ex11-day/pos.png');
+    /* 星星背景色 */
+    --colorRateBg: rgba(4, 10, 18, 0.6);
+    /* 图片上方星星背景色 */
+    --colorRateImgBg: rgba(255, 255, 255, 0.6);
+    /* 评分文字颜色 */
+    --colorRateText: rgba(4, 10, 18, 0.6);
+    /* 图片上方评分文字颜色 */
+    --colorRateImgText: rgba(255, 255, 255, 0.6);
+
+    /* 优惠券背景颜色 */
+    --colorCouponBg: rgba(246, 250, 255, 0.7);
+}
+
+.iov-text-h1 {
+    font-size: var(--ifontsizeH1);
+    font-weight: 800;
+}
+.iov-text-h2 {
+    font-size: var(--ifontsizeH2);
+    font-weight: 800;
+}
+.iov-text-title {
+    font-size: var(--ifontsizeTitle);
+    font-weight: 400;
+}
+.iov-text-operation {
+    font-size: var(--ifontsizeC1);
+    font-weight: 400;
+}
+.iov-text-c1 {
+    font-size: var(--ifontsizeC1);
+    font-weight: 400;
+}
+.iov-text-c2 {
+    font-size: var(--ifontsizeC2);
+    font-weight: 200;
+}
+.iov-text-caption {
+    font-size: var(--ifontsizeCaption);
+    font-weight: 200;
+}
+.modal-content-footer {
+    height: 1.24rem;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0.12rem;
+}
+.modal-content-footer-item {
+    flex: 1;
+    max-width: 3rem;
+    margin-right: 0.4rem;
+    text-align: center;
+    line-height: 0.8rem;
+    display: inline-block;
+    font-size: var(--ifontsizeC2);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: content-box;
+    color: var(--colorRealbtnTextNor);
+    background: var(--colorRealbtnBgNor);
+    box-shadow: 0 0.02rem 0.12rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: var(--cornerBtn);
+    border: var(--borderRealbtn) solid var(--colorRealbtnBorderNor);
+}
+.modal-content-footer-item:active {
+    color: var(--colorRealbtnTextPre);
+    background: var(--colorRealbtnBgPre);
+    border-color: var(--colorRealbtnBorderPre);
+}
+.modal-content-footer-item:nth-child(2),
+.modal-content-footer-item:last-child {
+    color: var(--colorGhostbtnTextNor);
+    background: var(--colorGhostbtnBgNor);
+    border-color: var(--colorGhostbtnBorderNor);
+}
+.modal-content-footer-item:nth-child(2):active,
+.modal-content-footer-item:last-child:active {
+    color: var(--colorGhostbtnTextPre);
+    background: var(--colorGhostbtnBgPre);
+    border-color: var(--colorGhostbtnBorderPre);
+}
+
+::-webkit-scrollbar {
+    width: var(--borderScrollWidth);
+    background: var(--colorScrollGapNor);
+    border-radius: var(--borderScrollRadius);
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+    width: var(--borderScrollWidth);
+    border-radius: var(--borderScrollRadius);
+    background: var(--colorScrollRailNor);
+}
+
+html {
+    font-size: 100px;
+}
+body {
+    font-size: var(--ifontsizeCaption1);
+}
+
+/* 兼容视频按钮 */
+.swan-web-video-player {
+    font-size: 45px !important;
+}
+
+.swan-video-bottom-control {
+    padding: 0 24px;
+}
+
+.swan-video-top-control {
+    padding: 0 28px;
+}
+
+.swan-video-controls {
+    line-height: 1.2;
+}
+
+.vjs-control-bar {
+    font-size: 45px !important;
+}
+.swan-video-i-play,
+.swan-video-i-pause,
+.swan-video-i-fullscreen,
+.swan-video-i-fullscreen-exit,
+.swan-video-i-brightness,
+.swan-video-i-brightness-lower,
+.swan-video-i-voice-muted,
+.swan-video-i-voice,
+.swan-video-i-forward,
+.swan-video-i-backward,
+.swan-video-i-unlock,
+.swan-video-i-replay,
+.swan-video-i-refresh,
+.swan-video-i-audio-muted,
+.swan-video-i-lock,
+.swan-video-i-danmu-disabled,
+.swan-video-i-audio,
+.swan-video-i-danmu-enabled,
+.swan-video-i-loading,
+.swan-video-i-back,
+.swan-video-i-controls {
+    font-size: 36px !important;
+}
+.swan-video-circle-btn .swan-video-btn-icon {
+    font-size: 55px !important;
+}
+
+.swan-video-lock-btn .swan-video-btn-icon {
+    font-size: 55px !important;
+}
+
+.swan-video-bottom-op-btn {
+    font-size: 45px !important;
+}
+.swan-video-progress-bar,
+.swan-video-progress-bar-placeholder {
+    font-size: 28px !important;
+}
+
+.swan-video-spinner {
+    font-size: 100px !important;
+}
+
+.swan-video-progress-state,
+.swan-video-voice-light-state {
+    font-size: 28px !important;
+}
+.swan-video-up-state-icon {
+    font-size: 63px !important;
+}
+
+.swan-video-progress-state .swan-video-time-info {
+    font-size: 28px !important;
+}
+.swan-video-play-result-state-tip {
+    font-size: 28px !important;
+}
+.swan-video-network-tip {
+    font-size: 32px !important;
+}
+
+.swan-video-play-go-on {
+    font-size: 32px !important;
+}
+
+.swan-video-back-btn {
+    font-size: 46px !important;
+}
+
+.swan-video-title {
+    font-size: 43px !important;
+}
+.swan-video-rate-btn .swan-video-rate-btn-text {
+    font-size: 28px !important;
+}
+
+.swan-video-rate-tips {
+    font-size: 32px !important;
+}
+
+.swan-video-sidebar-title {
+    font-size: 32px !important;
+}
+
+.swan-video-silent-play-tips {
+    font-size: 32px !important;
+}

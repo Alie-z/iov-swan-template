@@ -1,0 +1,15 @@
+<view class="main class-name">
+    <view class="icon-box">
+        <iov-icon class="icon-wrap" class-name="icon" type="warning" s-if="type === 'netError'"></iov-icon>
+    </view>
+    <view class="title">
+        <text s-if="type === 'network'">请求失败，请稍后重试</text>
+        <text s-if="type === 'authorize'">未授权</text>
+        <text s-if="type === 'netError'">网络异常，请稍后重试</text>
+    </view>
+    <view class="btn">
+        <iov-button bindtap="tap" s-if="type === 'network'" type="real2" class-name="btn-btn">点击重试</iov-button>
+        <iov-button bindtap="tap" s-if="type === 'authorize'" type="real2" class-name="btn-btn">授权</iov-button>
+        <iov-button bindtap="tap" s-if="type === 'netError'" type="real2" class-name="btn-btn">重新加载</iov-button>
+    </view>
+</view>

@@ -1,0 +1,7 @@
+{
+    "component": true,
+    "usingComponents": {
+        "iov-button": "iov-ui/lib/button",
+        "iov-icon": "iov-ui/lib/icon"
+    }
+}

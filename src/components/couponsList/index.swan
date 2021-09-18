@@ -1,0 +1,23 @@
+<view class="coupons-list">
+    <view class="coupon-left">
+        <iov-image
+            class-name="coupon-image"
+            mode="aspectFill"
+            width="1.28rem"
+            height="1.28rem"
+            lazyLoad="{{ true }}"
+            src="{{ couponsData.imgUrl }}"
+        ></iov-image>
+        <view class="coupon-left-con">
+            <view class="coupon-title">{{ couponsData.title }}</view>
+            <view class="details">
+                <iov-tag type="hint" class-name="aaa"> 满减券 </iov-tag>
+                <view class="details-text"> 满 200.00 可用 </view>
+            </view>
+        </view>
+    </view>
+    <view class="coupon-right">
+        <view class="coupon-price">{{ couponsData.price }}</view>
+        <iov-button size="small" type="real2" text="确认"></iov-button>
+    </view>
+</view>
